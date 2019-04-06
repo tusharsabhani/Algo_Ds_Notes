@@ -36,6 +36,8 @@ void main()
     printf("Enter the ending co-ordinates of line.");
     scanf("%f%f", &x2, &y2);
 
+    dda(int x1, int x2, int y1, int y2);
+
     closegraph();
 
 }
